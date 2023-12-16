@@ -24,10 +24,10 @@ func (p Pair) Result() uint32 {
 
 func main() {
 	partOneTotal := solvePartOne(readFileInput("inputs/01.txt"))
-	fmt.Printf("%d\n", partOneTotal)
+	fmt.Println(partOneTotal)
 
 	partTwoTotal := solvePartTwo(readFileInput("inputs/01.txt"))
-	fmt.Printf("%d\n", partTwoTotal)
+	fmt.Println(partTwoTotal)
 }
 
 func solvePartOne(input string) uint32 {
